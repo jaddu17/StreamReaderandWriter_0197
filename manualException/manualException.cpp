@@ -6,7 +6,7 @@ int main()
     try
     {
         cout << "Selamat Belajar di Prodi TI UMY" << endl;
-        // throw 0,5; // melemparkan sebuah intergar maka 
+        /*throw 0, 5; // melemparkan sebuah intergar maka*/
         cout << "Pernyataan tidak akan dieksekusi" << endl;
     }
     catch (int a)
@@ -20,5 +20,5 @@ int main()
         cout << "default Pengecualian dieksekusi" << endl;
     }
     
-    return 0;
+    return 0; 
 }
